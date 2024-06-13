@@ -64,13 +64,6 @@ Install Frontend with npm
   npm run dev
 ```
 
-Install Backend with pip
-
-```bash
-  cd backend
-  pip install -r requirements.txt
-  uvicorn server:app --host=0.0.0.0 --port 10000
-```
 
 
     
