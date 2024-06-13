@@ -55,12 +55,22 @@ Project is live at https://qa-frontend-theta.vercel.app/
 
 ## Installation
 
-Install project with npm
+Install Frontend with npm
 
 ```bash
-  cd project
+  cd frontend
   npm install 
   
   npm run dev
 ```
+
+Install Backend with pip
+
+```bash
+  cd backend
+  pip install -r requirements.txt
+  uvicorn server:app --host=0.0.0.0 --port 10000
+```
+
+
     
